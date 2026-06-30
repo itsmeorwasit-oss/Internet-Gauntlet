@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Internet Gauntlet</title>
 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Desktop Background -->
+    <div id="desktop">
+
+        <div id="desktopBackground"></div>
+
+        <!-- Taskbar -->
+        <div id="taskbar">
+
+            <div id="startButton">
+                🌐 Start
+            </div>
+
+            <div id="taskbarClock">
+                12:00 PM
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Main Game -->
+    <div id="gameContainer">
+
+        <!-- START SCREEN -->
+        <section id="desktopZone" class="zone active">
+
+            <div class="window">
+
+                <h1>The Internet Gauntlet</h1>
+
+                <p>
+                    Your objective is simple.
+                    Download a tiny game update.
+                </p>
+
+                <button id="beginGame">
+                    Begin Suffering
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- Future game levels -->
+
+        <section id="captchaZone" class="zone"></section>
+
+        <section id="browserZone" class="zone"></section>
+
+        <section id="privacyZone" class="zone"></section>
+
+        <section id="downloadZone" class="zone"></section>
+
+        <section id="shortsZone" class="zone"></section>
+
+        <section id="chatbotZone" class="zone"></section>
+
+        <section id="twofactorZone" class="zone"></section>
+
+        <section id="premiumZone" class="zone"></section>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
